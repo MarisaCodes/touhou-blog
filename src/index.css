@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+.nav-options {
+  display: flex;
+  gap: 10px;
+}
+.nav-options a {
+  color: #fa6060;
+}
+.nav-options a:hover {
+  text-decoration: underline;
+}
+.title {
+  font-size: 20px;
+}
+.blog-span {
+  color: #fa6060;
+}
+.home,
+.blog-details {
+  padding: 10px;
+}
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  background-color: rgb(255, 239, 239);
+  padding: 10px;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+.blog:hover {
+  box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.1);
+}
+.blog-title {
+  color: #fa6060;
+  font-size: 22px;
+  width: max-content;
+  max-width: 100%;
+}
+.blog-title:hover {
+  color: rgb(250, 96, 96, 0.7);
+}
+.blog-text {
+  font-size: 16px;
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.blog-author {
+  font-size: 13px;
+  color: #555;
+}
+
+.blog-details .blog-details-title {
+  color: #fa6060;
+  font-size: 30px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.blog-details-text {
+  padding: 20px;
+  font-size: 16px;
+  overflow-wrap: break-word;
+}
+.blog-details-author {
+  color: #555;
+  font-size: 13px;
+  padding: 20px;
+}
+.create {
+  padding: 20px 50px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.create div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.create input,
+.create textarea {
+  width: 100%;
+  border: 2px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.create input[type="text"]:focus,
+.create textarea:focus,
+.create input[type="text"]:hover,
+.create textarea:hover {
+  outline: none;
+  border: 2px solid #fa6060;
+}
+.create label {
+  color: #fa6060;
+}
+.create .create-btn {
+  width: max-content;
+  align-self: flex-end;
+  padding: 5px 20px;
+  background-color: #fa6060;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create .create-btn:hover {
+  box-shadow: 0 0 0 9000px inset rgba(0, 0, 0, 0.1);
+}

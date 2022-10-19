@@ -1,0 +1,46 @@
+{
+  "blogs": [
+    {
+      "title": "Shrine maintainence and cleaning tips.",
+      "text": "shrine cleaning can be entertaining sometimes but it is a serious tradition...",
+      "author": "Hakurei Reimu",
+      "id": 1
+    },
+    {
+      "title": "'Borrowing books', witch thief Kirisame Marisa strikes scarlet devil mansion's library again!",
+      "text": "the witch kirisame marisa, an ordinary magician in maid clothing and a witch hat, has continuously 'borrowed'...",
+      "author": "Shameimaru Aya",
+      "id": 2
+    },
+    {
+      "title": "Efficient maids don't use time",
+      "text": "an efficient maid does not waste any time, she stops time in order to...",
+      "author": "Izayoi Sakuya",
+      "id": 3
+    },
+    {
+      "title": "Visit my website at http://localhost:3000/cirno.gensokyo.fairies",
+      "text": "I watched a couple of tutorials and it seemed so easy! I must be smart. It doesn't work when we tried using rumia's laptop though I...",
+      "author": "Cirno",
+      "id": 4
+    },
+    {
+      "title": "Stupid fairy thinks people can access a locally hosted web app.",
+      "text": "cirno thinks she is so smart!! little does she know that her app is only a local version that is...",
+      "author": "clownpiece",
+      "id": 5
+    },
+    {
+      "title": "The Lunarians Will Pay With Their Blood ",
+      "text": "They killed my son. They killed him in cold blood and nothing will bring my poor son back to me. The lunarians will pay with their blood! I will use the ears of the lunarian rabbits to decorate my living room. I torture chang'e everyday and make her regret killing my son. The lunarians will pay for what they did.. That general sagume will not get away from my rage as well",
+      "author": "Junko",
+      "id": 6
+    },
+    {
+      "title": "Green tea and its health benefits",
+      "text": "Green tea 🍵 besides being an important tradition in the Hakurei family and in Japan as a whole also has a ton of health benefits. In this blog we are going to discuss the health benefits of tea and how to prepare simple green tea.",
+      "author": "Hakurei Reimu",
+      "id": 7
+    }
+  ]
+}
